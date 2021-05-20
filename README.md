@@ -1,3 +1,4 @@
+
 #  Aircraft Optimal Design
 This repository contains files and brief explanation regarding the homework assignments for the course Aircraft Optimal Design. There are a total of 4 assignments in which the first 3 are solved in MatLab and consist of an introduction to optimization algorithms and the 4th one is solved in OpenAeroStruct (low-fidelity aerostructural wing design tool) which is built on top of OpenMDAO.
 
@@ -22,4 +23,19 @@ The following figure shows a visual intrepretation for the genetic algorithm con
 <p float="left">
   <img src="https://github.com/josemfsantos97/Optimal-Aircraft-Design/blob/main/Homework02/images/steepest_descent.png" width="450" />
   <img src="https://github.com/josemfsantos97/Optimal-Aircraft-Design/blob/main/Homework02/images/steepest_descent2d.png" width="450" /> 
+</p>
+
+## [Homework03  - Introduction to OpenMDAO and OpenAeroStruct](https://github.com/josemfsantos97/Optimal-Aircraft-Design/tree/main/Homework03)
+- Setting up the simple optimization problem already computed in the last homeworks (Rosenbrock function), this time using OpenMDAO. OpenMDAO is an open-source framework for efficient multidisciplinary optimization. Introduction to N2 diagrams.
+- Understanding the simplified models used by OpenAeroStruct - vortex-lattice method and spatial beam model to simulate aerodynamic and structural analyses using lifting surfaces.
+- Creating and incorporationg a function to calculate the Reynolds number that can be used as additional constraint.
+- Solving a typical aerodynamic optimization problem of an isolated aircraft wing given by:
+
+![Optimization problem](https://github.com/josemfsantos97/Optimal-Aircraft-Design/blob/main/Homework03/images/optimization_prob_tt3.png)
+
+Some results:
+
+<p float="left">
+  <img src="https://github.com/josemfsantos97/Optimal-Aircraft-Design/blob/main/Homework03/images/n2_constrained.png" width="400" />
+  <img src="https://github.com/josemfsantos97/Optimal-Aircraft-Design/blob/main/Homework03/images/viscous.png" width="550" /> 
 </p>
