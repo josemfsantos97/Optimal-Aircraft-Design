@@ -39,3 +39,16 @@ Some results:
   <img src="https://github.com/josemfsantos97/Optimal-Aircraft-Design/blob/main/Homework03/images/n2_constrained.png" width="400" />
   <img src="https://github.com/josemfsantos97/Optimal-Aircraft-Design/blob/main/Homework03/images/viscous.png" width="550" /> 
 </p>
+
+
+## [Homework04  - Conceptual Aircraft Aerostructural Design using OpenAeroStruct](https://github.com/josemfsantos97/Optimal-Aircraft-Design/tree/main/Homework04)
+
+- Formulating and solving a multidisciplinary optimization problem, using as a reference the Bombardier CRJ700, with the aid of OpenAeroStruct.
+- Analysis of the optimization history and computational cost for different number of degrees of freedom (design variables).
+- Understanding the coupling between disciplines and how the information flows from one component to others.
+
+
+<p float="left">
+  <img src="https://github.com/josemfsantos97/Optimal-Aircraft-Design/blob/main/Homework04/images/n2_wingbox.png" width="550" />
+  <img src="https://github.com/josemfsantos97/Optimal-Aircraft-Design/blob/main/Homework04/images/1st_plot.png" width="550" /> 
+</p>
